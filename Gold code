@@ -1,0 +1,13 @@
+// Declare a variable to store the current price of gold
+let goldPrice;
+
+// Function to update the gold price
+function updateGoldPrice(newPrice) {
+  goldPrice = newPrice;
+  console.log("The current price of gold is: $" + goldPrice);
+}
+
+// Call the function to update the gold price
+updateGoldPrice(1750.50);
+
+// Output: "The current price of gold is: $1750.50"
